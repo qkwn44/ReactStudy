@@ -1,0 +1,30 @@
+//index.scss
+@charset "UTF-8";
+
+//Base
+@import "./assets/styles/fonts";
+@import "./assets/styles/vars";
+@import "./assets/styles/base";
+@import "./assets/styles/mixins";
+
+//loader
+@import "./assets/styles/loader";
+
+//layout
+@import "./assets/styles/layout";
+
+//page
+@import "./assets/styles/pages";
+
+//font
+@font-face {
+    font-family: 'Maghony';
+    src: url('assets/fonts/Maghony.eot');
+    src: url('assets/fonts/Maghony.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Maghony.svg#Maghony') format('svg'),
+         url('assets/fonts/Maghony.ttf') format('truetype'),
+         url('assets/fonts/Maghony.woff') format('woff'),
+         url('assets/fonts/Maghony.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
